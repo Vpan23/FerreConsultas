@@ -1,0 +1,46 @@
+/* Paleta de Colores */
+:root {
+    --clr-bg-red-1: #c1121f;
+    --clr-bg-red-2: #a4161a;
+    --clr-bg-red-3: #e5383b;
+
+    --clr-bg-light-1: #b1a7a6;
+    --clr-bg-light-2: #d3d3d3;
+    --clr-bg-light-3: #f5f3f4;
+    
+    --clr-bg-dark-1: #660708;
+    --clr-bg-dark-2: #161a1d;
+    --clr-bg-dark-3: #0b090a;
+
+    --clr-bg-grey-1: #495867;
+
+    --clr-bg-red-4: #ca0101;
+    --clr-bg-brown-2: #b59069;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--clr-bg-brown-2);
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: start;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--clr-bg-red-4);
+    width: 400px;
+    height: 60px;
+}
